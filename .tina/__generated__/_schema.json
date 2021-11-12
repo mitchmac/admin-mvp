@@ -1,0 +1,24 @@
+{
+  "collections": [
+    {
+      "label": "Pages",
+      "name": "page",
+      "path": "content/",
+      "fields": [
+        {
+          "type": "string",
+          "label": "Title",
+          "name": "title",
+          "namespace": [
+            "page",
+            "title"
+          ]
+        }
+      ],
+      "namespace": [
+        "page"
+      ]
+    }
+  ],
+  "namespace": []
+}
