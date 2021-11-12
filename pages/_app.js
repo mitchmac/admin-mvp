@@ -14,7 +14,7 @@ const App = ({ Component, pageProps }) => {
                     <TinaCMS
                         branch="main"
                         isLocalClient={isLocal}
-                        clientId={process.env.TINA_CLIENT_ID || ''}
+                        clientId={process.env.NEXT_PUBLIC_TINA_CLIENT_ID || ''}
                         cmsCallback={(cms) => {
                             cms.flags.set("tina-admin", true);
                         }}
