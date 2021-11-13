@@ -5,6 +5,9 @@ const TinaCMS = dynamic(() => import("tinacms"), { ssr: false });
 const App = ({ Component, pageProps }) => {
     // @TODO: does this work for builds and hosted use?
     let isLocal = (typeof window === 'undefined' || window.location.hostname === 'localhost');
+    
+    console.log(`islocal ${isLocal}`);
+    console.log(process.env.NEXT_PUBLIC_TINA_CLIENT_ID);
 
     return (
         <>
