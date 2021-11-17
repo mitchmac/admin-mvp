@@ -4,7 +4,7 @@ export default defineSchema({collections: [
         {
             label: 'Pages',
             name: 'page',
-            path: 'content/pages/',
+            path: 'content/pages',
             fields: [
                 {
                     type: 'string',
